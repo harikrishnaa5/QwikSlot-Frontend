@@ -136,6 +136,12 @@ const Auth: React.FC = () => {
                         {isSignup ? "Sign Up" : "Log In"}
                     </button>
 
+                    <span className="flex items-center gap-3 text-xs mt-3">
+                        <hr className="w-full text-gray-300 " />
+                        OR
+                        <hr className="w-full text-gray-300 " />
+                    </span>
+
                     <button
                         type="submit"
                         className="mt-4 w-full text-sm font-semibold rounded-md py-2 hover:bg-gray-100 transition-colors duration-200 transform active:scale-99 cursor-pointer flex justify-center items-center gap-2 border border-gray-300"
